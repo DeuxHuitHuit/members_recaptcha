@@ -21,6 +21,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.0.2" date="2017-10-17" min="2.6.0" max="2.x.x">
+			- Fix renamed key in the real 1.8.0 release
+		</release>
 		<release version="1.0.1" date="2017-10-10" min="2.6.0" max="2.x.x">
 			- Fix github links
 		</release>
