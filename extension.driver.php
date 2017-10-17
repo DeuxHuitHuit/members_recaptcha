@@ -88,7 +88,7 @@ class extension_members_recaptcha extends Extension
 
     public function membersPreLogin(array $context)
     {
-        if (!$context['can-logged-in']) {
+        if (!$context['can-log-in']) {
             return;
         }
         $reCaptcha = false;
@@ -100,6 +100,6 @@ class extension_members_recaptcha extends Extension
                 Symphony::Log()->pushToLog("Prevent member login: Invalid reCaptcha", E_NOTICE, true);
             }
         }
-        $context['can-logged-in'] = $reCaptcha;
+        $context['can-log-in'] = $reCaptcha;
     }
 }
