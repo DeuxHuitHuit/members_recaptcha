@@ -21,6 +21,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.0.3" date="2017-10-18" min="2.6.0" max="2.x.x">
+			- Add a context error when the field is missing
+		</release>
 		<release version="1.0.2" date="2017-10-17" min="2.6.0" max="2.x.x">
 			- Fix renamed key in the real 1.8.0 release
 		</release>
