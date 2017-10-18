@@ -99,6 +99,8 @@ class extension_members_recaptcha extends Extension
                 $context['errors']['google_recaptcha'] = 'Invalid reCaptcha';
                 Symphony::Log()->pushToLog("Prevent member login: Invalid reCaptcha", E_NOTICE, true);
             }
+        } else {
+            $context['errors']['google_recaptcha'] = 'Missing reCaptcha';
         }
         $context['can-log-in'] = $reCaptcha;
     }
