@@ -25,7 +25,8 @@ For more information, see <http://getsymphony.com/learn/tasks/view/install-an-ex
 ### HOW TO USE ###
 
 - Enable the extension
-- Add the reCaptcha field into your login form.
+- Edit the MembersEvent class to add the 'recaptcha' filter
+- Add the reCaptcha field into your login form (follow google_recaptcha instructions)
 
 ### LICENSE ###
 
